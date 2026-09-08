@@ -1,5 +1,5 @@
 cliente deste repositório específico:
-Osvaldo
+ Osvaldo
 
 objetivo do sistema:
-Sistema de controle de carros para uma oficina
+ Sistema de controle de carros para uma oficina
