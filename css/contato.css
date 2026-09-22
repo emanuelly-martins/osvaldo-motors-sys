@@ -67,19 +67,20 @@ a:hover {
     font-weight: 500;
 }
 
-#introdução {
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-}
-
-#introdução h2 {
-    color: rgb(255, 123, 0);
-}
-
 hr {
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+.contato {
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.contato h2 {
+    color: rgb(255, 123, 0);
 }
 
 #logo img {

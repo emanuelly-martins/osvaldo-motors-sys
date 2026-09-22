@@ -67,14 +67,36 @@ a:hover {
     font-weight: 500;
 }
 
-#introdução {
-    background-color: black;
-    color: #fff;
+#servicos {
     padding: 30px;
+    color: rgb(255, 123, 0);
 }
 
-#introdução h2 {
-    color: rgb(255, 123, 0);
+#cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 40px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 356px;
+    object-fit: cover;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 hr {
@@ -84,4 +106,25 @@ hr {
 
 #logo img {
     width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight:400;
+}
+
+.tabela {
+    font-weight: bold;
+    background-color: rgb(253, 193, 136);
 }
